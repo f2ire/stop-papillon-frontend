@@ -1,4 +1,3 @@
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Debug from './pages/Debug';
 import Home from './pages/Home';
@@ -13,7 +12,7 @@ function App() {
         {/* More route later */}
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
